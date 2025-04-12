@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.example.macos-watcher</string>
+    <key>ProgramArguments</key>
+    <array>
+        <!-- TODO: Update this path to the path of the binary you want to run -->
+        <string>/Users/YOUR_USERNAME/projects/macos-watcher/target/release/macos-watcher</string>
+    </array>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>StandardOutPath</key>
+    <!-- TODO: Update this path to the path of the log file you want to use -->
+    <string>/Users/YOUR_USERNAME/macos-watcher-out.log</string>
+    <key>StandardErrorPath</key>
+    <!-- TODO: Update this path to the path of the log file you want to use -->
+    <string>/Users/YOUR_USERNAME/macos-watcher-err.log</string>
+</dict>
+</plist> 

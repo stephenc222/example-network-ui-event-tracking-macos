@@ -1,0 +1,4 @@
+📡 15:06:53.354573 ↑ 5230 B ↓ 0 B (Δ ↑ 5230 ↓ 0)
+20:06:53 [INFO] Button Clicked: App='/Users/YOUR_USERNAME/Library/Developer/Xcode/DerivedData/example-mac-app-ayohiudodesgubghiodgxmtyinil/Build/Products/Debug/example-mac-app.app/Contents/MacOS/example-mac-app' (PID=47727), ID='ButtonA', Label='Button A', Pos=(1128.4, 184.5)
+📡 15:06:57.720716 ↑ 6092 B ↓ 0 B (Δ ↑ 6092 ↓ 0)
+20:06:57 [INFO] Button Clicked: App='/Users/YOUR_USERNAME/Library/Developer/Xcode/DerivedData/example-mac-app-ayohiudodesgubghiodgxmtyinil/Build/Products/Debug/example-mac-app.app/Contents/MacOS/example-mac-app' (PID=47727), ID='ButtonB', Label='Button B', Pos=(1116.9, 218.6)
