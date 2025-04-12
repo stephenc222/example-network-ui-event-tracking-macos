@@ -9,7 +9,9 @@ This project demonstrates how to track UI events and network activity on macOS i
   - Logs UI metadata including accessibility label, role, and PID
   - Observes per-process network traffic using `nettop`
 
-This is the macOS counterpart to the [Windows UI + Network Watcher](#), built to give developers deep visibility into app behavior.
+[Read the full blog post](https://stephencollins.tech/posts/macos-ui-network-monitoring-rust-swiftui) about this tutorial project.
+
+This is the macOS counterpart to the [Windows UI + Network Watcher](https://github.com/stephenc222/example-network-ui-event-tracking-windows/tree/main) tutorial project, built to give developers visibility into app behavior.
 
 ---
 
@@ -95,7 +97,7 @@ Example output:
 📡 example-mac-app.47727 ↑ 6092 B ↓ 0 B (Δ ↑ 6092 ↓ 0)
 ```
 
-You’ll also see key presses and other clickable UI elements logged with detailed context.
+You'll also see key presses and other clickable UI elements logged with detailed context.
 
 ---
 
@@ -117,7 +119,6 @@ This tool runs in the foreground. Press `Ctrl+C` to exit.
 ## 🧭 Cross-Platform Support
 
 Looking for Windows?  
-Check out the [Windows UI + Network Watcher](#)
+Check out the [Windows UI + Network Watcher](https://github.com/stephenc222/example-network-ui-event-tracking-windows)
 
-This macOS version mirrors the Windows tool's architecture and goals:  
-Trigger simulated user events in the GUI, observe and attribute network traffic at runtime.
+This macOS version mirrors the Windows tool's architecture and goals: trigger simulated user events in the GUI, observe and attribute network traffic at runtime.
